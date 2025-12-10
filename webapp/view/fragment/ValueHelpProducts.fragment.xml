@@ -1,0 +1,19 @@
+<core:FragmentDefinition
+	xmlns="sap.m"
+	xmlns:core="sap.ui.core">
+	<SelectDialog
+		id="vhProducts"
+		title="Selecionar Productos"
+        multiSelect="true"
+        items="{path: '/items'}"  confirm=".onVHConfirm" 
+        cancel=".onVHCancel" search=".VHSearch" liveChange=".onVHSearch"
+		>
+        <items>
+            <StandardListItem
+                title="{nombre}"
+                description="{categoria}"
+                info="{Supplier}"
+                infoState="Information" />
+        </items>
+	</SelectDialog>
+</core:FragmentDefinition>

@@ -1,0 +1,305 @@
+
+{
+  "items": [
+    {
+      "id": "1001",
+      "nombre": "Producto A",
+      "categoria": "Electrónica",
+      "precio": 120.50,
+      "stock": 35,
+      "estado": "Disponible",
+      "detalle": {
+        "descripcion": "Producto A de alta calidad",
+        "proveedor": "Proveedor X",
+        "fechaIngreso": "2025-11-01",
+        "ubicacion": "Almacén 1",
+        "garantia": "2 años"
+      }
+    },
+    {
+      "id": "1002",
+      "nombre": "Producto B",
+      "categoria": "Hogar",
+      "precio": 89.99,
+      "stock": 12,
+      "estado": "Disponible",
+      "detalle": {
+        "descripcion": "Producto B resistente",
+        "proveedor": "Proveedor Y",
+        "fechaIngreso": "2025-10-15",
+        "ubicacion": "Almacén 2",
+        "garantia": "1 año"
+      }
+    },
+    {
+      "id": "1003",
+      "nombre": "Producto C",
+      "categoria": "Oficina",
+      "precio": 45.00,
+      "stock": 0,
+      "estado": "Agotado",
+      "detalle": {
+        "descripcion": "Producto C económico",
+        "proveedor": "Proveedor Z",
+        "fechaIngreso": "2025-09-20",
+        "ubicacion": "Almacén 3",
+        "garantia": "6 meses"
+      }
+    },
+    {
+      "id": "1004",
+      "nombre": "Producto D",
+      "categoria": "Electrodomésticos",
+      "precio": 299.99,
+      "stock": 8,
+      "estado": "Disponible",
+      "detalle": {
+        "descripcion": "Producto D eficiente",
+        "proveedor": "Proveedor X",
+        "fechaIngreso": "2025-08-10",
+        "ubicacion": "Almacén 4",
+        "garantia": "3 años"
+      }
+    },
+    {
+      "id": "1005",
+      "nombre": "Producto E",
+      "categoria": "Jardinería",
+      "precio": 59.90,
+      "stock": 20,
+      "estado": "Agotado",
+      "detalle": {
+        "descripcion": "Producto E duradero",
+        "proveedor": "Proveedor Y",
+        "fechaIngreso": "2025-07-05",
+        "ubicacion": "Almacén 5",
+        "garantia": "1 año"
+      }
+    },
+    {
+      "id": "1006",
+      "nombre": "Producto F",
+      "categoria": "Electrónica",
+      "precio": 150.00,
+      "stock": 15,
+      "estado": "Disponible",
+      "detalle": {
+        "descripcion": "Producto F innovador",
+        "proveedor": "Proveedor Z",
+        "fechaIngreso": "2025-06-15",
+        "ubicacion": "Almacén 6",
+        "garantia": "2 años"
+      }
+    },
+    {
+      "id": "1007",
+      "nombre": "Producto G",
+      "categoria": "Hogar",
+      "precio": 75.50,
+      "stock": 5,
+      "estado": "Agotado",
+      "detalle": {
+        "descripcion": "Producto G compacto",
+        "proveedor": "Proveedor X",
+        "fechaIngreso": "2025-05-20",
+        "ubicacion": "Almacén 7",
+        "garantia": "1 año"
+      }
+    },
+    {
+      "id": "1008",
+      "nombre": "Producto H",
+      "categoria": "Oficina",
+      "precio": 99.99,
+      "stock": 18,
+      "estado": "Disponible",
+      "detalle": {
+        "descripcion": "Producto H ergonómico",
+        "proveedor": "Proveedor Y",
+        "fechaIngreso": "2025-04-10",
+        "ubicacion": "Almacén 8",
+        "garantia": "2 años"
+      }
+    },
+    {
+      "id": "1009",
+      "nombre": "Producto I",
+      "categoria": "Electrodomésticos",
+      "precio": 450.00,
+      "stock": 3,
+      "estado": "Agotado",
+      "detalle": {
+        "descripcion": "Producto I premium",
+        "proveedor": "Proveedor Z",
+        "fechaIngreso": "2025-03-01",
+        "ubicacion": "Almacén 9",
+        "garantia": "5 años"
+      }
+    },
+    {
+      "id": "1010",
+      "nombre": "Producto J",
+      "categoria": "Jardinería",
+      "precio": 35.00,
+      "stock": 50,
+      "estado": "Disponible",
+      "detalle": {
+        "descripcion": "Producto J básico",
+        "proveedor": "Proveedor X",
+        "fechaIngreso": "2025-02-15",
+        "ubicacion": "Almacén 10",
+        "garantia": "6 meses"
+      }
+    },
+    {
+      "id": "1011",
+      "nombre": "Monitor LED 27",
+      "categoria": "Electrónica",
+      "precio": 350.75,
+      "stock": 40,
+      "estado": "Agotado",
+      "detalle": {
+        "descripcion": "Monitor LED de alta resolución para oficina",
+        "proveedor": "Proveedor X",
+        "fechaIngreso": "2025-11-25",
+        "ubicacion": "Almacén A",
+        "garantia": "3 años"
+      }
+    },
+    {
+      "id": "1012",
+      "nombre": "Silla Ergonómica",
+      "categoria": "Oficina",
+      "precio": 180.00,
+      "stock": 15,
+      "estado": "Disponible",
+      "detalle": {
+        "descripcion": "Silla de malla con soporte lumbar",
+        "proveedor": "Proveedor Y",
+        "fechaIngreso": "2025-12-01",
+        "ubicacion": "Almacén B",
+        "garantia": "2 años"
+      }
+    },
+    {
+      "id": "1013",
+      "nombre": "Mesa Auxiliar",
+      "categoria": "Hogar",
+      "precio": 65.40,
+      "stock": 0,
+      "estado": "Agotado",
+      "detalle": {
+        "descripcion": "Mesa de centro de madera de roble",
+        "proveedor": "Proveedor Z",
+        "fechaIngreso": "2025-10-05",
+        "ubicacion": "Almacén C",
+        "garantia": "1 año"
+      }
+    },
+    {
+      "id": "1014",
+      "nombre": "Aspiradora Robótica",
+      "categoria": "Electrodomésticos",
+      "precio": 550.99,
+      "stock": 5,
+      "estado": "Agotado",
+      "detalle": {
+        "descripcion": "Aspiradora con mapeo láser",
+        "proveedor": "Proveedor Y",
+        "fechaIngreso": "2025-09-15",
+        "ubicacion": "Almacén D",
+        "garantia": "3 años"
+      }
+    },
+    {
+      "id": "1015",
+      "nombre": "Kit de Riego",
+      "categoria": "Jardinería",
+      "precio": 42.50,
+      "stock": 100,
+      "estado": "Disponible",
+      "detalle": {
+        "descripcion": "Kit de riego por goteo programable",
+        "proveedor": "Proveedor X",
+        "fechaIngreso": "2025-08-20",
+        "ubicacion": "Almacén E",
+        "garantia": "6 meses"
+      }
+    },
+    {
+      "id": "1016",
+      "nombre": "Laptop Ultraligera",
+      "categoria": "Electrónica",
+      "precio": 899.00,
+      "stock": 2,
+      "estado": "Agotado",
+      "detalle": {
+        "descripcion": "Portátil de alto rendimiento y peso ligero",
+        "proveedor": "Proveedor Z",
+        "fechaIngreso": "2025-07-10",
+        "ubicacion": "Almacén F",
+        "garantia": "4 años"
+      }
+    },
+    {
+      "id": "1017",
+      "nombre": "Set de Toallas",
+      "categoria": "Hogar",
+      "precio": 32.90,
+      "stock": 60,
+      "estado": "Disponible",
+      "detalle": {
+        "descripcion": "Set de toallas de algodón egipcio",
+        "proveedor": "Proveedor X",
+        "fechaIngreso": "2025-06-01",
+        "ubicacion": "Almacén G",
+        "garantia": "3 meses"
+      }
+    },
+    {
+      "id": "1018",
+      "nombre": "Destructora Documentos",
+      "categoria": "Oficina",
+      "precio": 79.95,
+      "stock": 7,
+      "estado": "Disponible",
+      "detalle": {
+        "descripcion": "Destructora de corte cruzado con seguridad P-4",
+        "proveedor": "Proveedor Y",
+        "fechaIngreso": "2025-05-12",
+        "ubicacion": "Almacén H",
+        "garantia": "1 año"
+      }
+    },
+    {
+      "id": "1019",
+      "nombre": "Batidora de Mano",
+      "categoria": "Electrodomésticos",
+      "precio": 49.50,
+      "stock": 0,
+      "estado": "Agotado",
+      "detalle": {
+        "descripcion": "Batidora de mano con múltiples velocidades",
+        "proveedor": "Proveedor Z",
+        "fechaIngreso": "2025-04-22",
+        "ubicacion": "Almacén I",
+        "garantia": "2 años"
+      }
+    },
+    {
+      "id": "1020",
+      "nombre": "Guantes de Jardinería",
+      "categoria": "Jardinería",
+      "precio": 15.00,
+      "stock": 90,
+      "estado": "Agotado",
+      "detalle": {
+        "descripcion": "Guantes de piel sintética reforzados",
+        "proveedor": "Proveedor X",
+        "fechaIngreso": "2025-03-10",
+        "ubicacion": "Almacén J",
+        "garantia": "6 meses"
+      }
+    }
+  ]
+}

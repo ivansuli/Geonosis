@@ -1,0 +1,63 @@
+<mvc:View controllerName="geonosis.table.report.controller.Main"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m"
+    xmlns:fb="sap.ui.comp.filterbar">
+    <Page id="page" title="{i18n>title}">
+        <content>
+            <Input
+			showValueHelp="true"
+			valueHelpRequest=".onValueHelpRequest"
+            >
+	        </Input>
+            <fb:FilterBar id="filterbar" persistencyKey="myPersKey" useToolbar="false" search=".onSearch" filterChange=".onFilterChange" afterVariantLoad=".onAfterVariantLoad">
+                <fb:filterGroupItems>
+                    <fb:FilterGroupItem name="Estado" label="Estado" groupName="Goup1" visibleInFilterBar="true">
+                        <fb:control>
+                            <Input value="{filters>/Estado}"></Input>
+                        </fb:control>
+                    </fb:FilterGroupItem>
+                    <fb:FilterGroupItem name="Stock" label="Stock" groupName="Goup1" visibleInFilterBar="true">
+                        <fb:control>
+                            <Input value="{filters>/Stock}"></Input>
+                        </fb:control>
+                    </fb:FilterGroupItem>
+                    <fb:FilterGroupItem name="Producto" label="Producto" groupName="Group1" visibleInFilterBar="true">
+                        <fb:control>
+                            <Input value="{filters>/Producto}"></Input>
+                        </fb:control>
+                    </fb:FilterGroupItem>
+                    <fb:FilterGroupItem name="Categoria" label="Categoria" groupName="Group1" visibleInFilterBar="true">
+                        <fb:control>
+                            <Input value="{filters>/Categoria}"></Input>
+                        </fb:control>
+                    </fb:FilterGroupItem>
+                </fb:filterGroupItems>
+			</fb:FilterBar>
+            <Table id="tblProducts"
+                   items="{/items}"
+                   >
+                <columns>
+                    <Column><Text text="{i18n>Id}"/></Column>
+                    <Column><Text text="{i18n>Producto}"/></Column>
+                    <Column><Text text="{i18n>Categoria}"/></Column>
+                    <Column><Text text="{i18n>Estado}"/></Column>
+                    <Column><Text text="{i18n>Precio}"/></Column>
+                    <Column><Text text="{i18n>Stock}"/></Column>
+                </columns>
+                <items>
+                    <ColumnListItem type="Navigation" press="onListItemPress"
+                    >
+                        <cells>
+                            <Text text="{id}"/>
+                            <Text text="{nombre}"/>
+                            <Text text="{categoria}"/>
+                            <Text text="{estado}"/>
+                            <Text text="{precio}"/>
+                            <Text text="{stock}"/>
+                        </cells>
+                    </ColumnListItem>
+                </items>
+            </Table>
+        </content>
+    </Page>
+</mvc:View>
